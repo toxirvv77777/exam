@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header start */
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 800px;
+    padding: 0px 8%;
+    background-color: #fff;
+}
+
+header .header1 a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Sora", sans-serif;
+}
+
+header .header1 img {
+    width: 40px;
+    height: 40px;
+}
+
+header .header1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header .header2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+header .header2 a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* header end  */
+
+/* banner start */
+.banner {
+    width: 100%;
+    height: 750px;
+    background-image: url(./img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+}
+
+.banner .mini_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 210px;
+}
+
+.banner .mini_banner img {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 5%;
+    color: #fff;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 10px;
+}
+
+.banner .mini_banner h2 {
+    font-size: 42px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 130%;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.banner .mini_banner button {
+    width: 235px;
+    height: 56px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.banner .mini_banner .img {
+    font-family: "Sora", sans-serif;
+
+}
+
+/* banner end */
+
+/* second banner start */
+
+.second_banner {
+    width: 100%;
+    height: 670px;
+    background-image: url(./81a397772dfc048014f1902a0c5cef20e2241de5\ \(2\).png);
+    background-color: red;
+    padding: 20px 8%;
+}
+
+.second_banner .second_mini_banner {
+    width: 1276px;
+    height: 528px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+}
+
+.second_banner .second_mini_banner .text {
+    margin-left: 50px;
+}
+
+.second_banner .second_mini_banner .text img {
+    margin-bottom: 20px;
+}
+
+.second_banner .second_mini_banner .text h1 {
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 2px;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.second_banner .second_mini_banner .text span {
+    color: #181C29;
+    font-weight: 400;
+    line-height: 148%;
+    font-family: "Sora", sans-serif;
+    margin-right: 285px;
+}
+
+.second_banner .second_mini_banner .image {
+    display: flex;
+    border-radius: 10px;
+}
+
+.second_banner .second_mini_banner .image img {
+    border-radius: 10px;
+}
+
+/* second banner end */
+
+/* become start */
+
+.become {
+    width: 100%;
+    height: 550px;
+    background-image: url(./81a397772dfc048014f1902a0c5cef20e2241de5\ \(2\).png);
+    background-color: red;
+    padding: 10px;
+    padding-left: 8%;
+}
+
+.become .become_happier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.become .become_happier h1 {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.become .become_happier img {
+    width: 150px;
+    height: 30px;
+}
+
+.become .live {
+    display: flex;
+    align-items: center;
+}
+
+.become .live h2 {
+    font-size: 80px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.become .live .imgg {
+    border-radius: 25px;
+}
+
+
+.become .live img {
+    width: 239px;
+    height: 239px;
+}
+
+/* become end */
+
+
+
+/* best gifts start */
+
+.best_gifts {
+    width: 100%;
+    height: 600px;
+    background-image: url(./81a397772dfc048014f1902a0c5cef20e2241de5\ \(2\).png);
+    background-color: red;
+}
+
+.best_gifts .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+
+.best_gifts .texts h1 {
+    font-family: "Sora", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.best_gifts .boxes {
+    display: flex;
+    padding-left: 8%;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.best_gifts .box {
+    width: 310px;
+    height: 342px;
+    background-color: #d7cece;
+    border-radius: 10px;
+}
+
+.best_gifts .box img {
+    width: 307px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.best_gifts .box .tekst {
+    width: 310px;
+    height: 115px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.best_gifts .box .tekst p {
+    line-height: 190%;
+    font-size: 12px;
+    font-family: "Sora", sans-serif;
+    color: #4361FF;
+    font-weight: 600;
+}
+
+.best_gifts .box .tekst span {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Sora", sans-serif;
+}
+
+.best_gifts .boxes .box .tekst .health {
+    color: #06A44F;
+}
+
+.best_gifts .boxes .box .tekst .harmony {
+    color: #FF43F7;
+}
+
+/* best gifts end */
+
+/* forest start */
+
+.forest {
+    width: 100%;
+    height: 668px;
+    background-color: red;
+    color: #fff;
+    background-image: url(./116bcac304957fcbcda39d1d47f087b8447ea5a8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forest_first {
+    display: flex;
+    flex-direction: column;
+}
+
+.forest .forest_first h1 {
+    font-family: "Sora", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.forest .forest_first button {
+    width: 235px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.forest .forest_first .mini_box {
+    width: 344px;
+    height: 72px;
+    display: flex;
+    gap: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+/* forest end */
+
+/* footer start */
+
+footer {
+    width: 100%;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer .card {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+footer .cards {
+    width: 417px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #dcd7d7;
+}
+
+footer .cards span {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    font-family: "Sora", sans-serif;
+}
+
+footer .icons {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+footer .teksts p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 10px;
+}
+
+/* footer end */
+

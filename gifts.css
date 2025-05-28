@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 800px;
+    padding: 0px 7%;
+    background-color: #fff;
+}
+
+header .header1 a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Sora", sans-serif;
+}
+
+header .header1 img {
+    width: 40px;
+    height: 40px;
+}
+
+header .header1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header .header2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+header .header2 a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header .header2 .gift{
+    width: 78px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF4646;
+    background-color: #FF46461A;
+}
+
+header .header2 .gift a{
+    color: #FF4646;
+}
+
+/* FIRST BANNER */
+
+.first_banner {
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/1317eca884b2693f8ce452278c7fce31948168a8.png);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first_banner h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Sora", sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: 5px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* FIRST BANNER END */
+
+
+/* boxes start */
+
+.second_banner{
+    width: 100%;
+    height: 1200px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: red;
+    padding: 10px 7%;
+}
+
+.second_banner .all2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: #fff;
+        font-family: "Sora", sans-serif;
+}
+
+.second_banner .all{
+    width: 65px;
+    height: 40px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.second_banner .big_boxes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.second_banner .big_boxes .small_boxes{
+    width: 310px;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECF3F8;
+    border-radius: 10px;
+}
+
+.second_banner .big_boxes .small_boxes .matnlar{
+    width: 309px;
+    height: 112px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second_banner .big_boxes .small_boxes .matnlar span{
+            font-family: "Sora", sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            color: #4361FF;
+}
+
+.second_banner .big_boxes .small_boxes .matnlar p{
+                font-family: "Sora", sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 3px;
+}
+
+
+
+/* boxes end */
+
+footer {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer .card {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+footer .cards {
+    width: 417px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #dcd7d7;
+}
+
+footer .cards span {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    font-family: "Sora", sans-serif;
+}
+
+footer .icons {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+footer .teksts p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 10px;
+}
